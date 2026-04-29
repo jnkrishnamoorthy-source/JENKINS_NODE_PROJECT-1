@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/', (req, res) => {
 //   res.send('Hello Students ');docker rm -f node-demo-container
-  res.send('Updated Version');
+  res.send('Updated Version-1');
 });
 
 app.listen(3000, () => {
